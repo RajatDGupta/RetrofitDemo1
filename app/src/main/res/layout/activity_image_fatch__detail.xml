@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="nee.firecard.com.retrofitdemo1.Image_fatch_Detail">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:id="@+id/imageView"
+            android:scaleType="fitXY"
+            android:src="@drawable/bye"/>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:orientation="horizontal"
+           android:weightSum="1">
+         <ImageView
+             android:layout_width="match_parent"
+             android:layout_height="50dp"
+             android:id="@+id/upadte"
+             android:src="@drawable/ic_edit_black_24dp"
+             android:layout_weight="0.4"
+             />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/textView"
+            android:text="Title"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:paddingTop="10dp"
+            android:layout_weight="0.2"/>
+           <ImageView
+               android:id="@+id/delete"
+               android:layout_width="match_parent"
+               android:layout_height="50dp"
+               android:layout_weight="0.4"
+               android:src="@drawable/ic_delete_black_24dp"
+               />
+       </LinearLayout>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

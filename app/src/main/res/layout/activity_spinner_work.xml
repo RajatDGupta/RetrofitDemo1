@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="nee.firecard.com.retrofitdemo1.SpinnerWork">
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="country"
+        />
+
+    <Spinner
+        android:id="@+id/sp_country"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+    </Spinner>
+
+    <Spinner
+        android:id="@+id/sp_state"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+    </Spinner>
+
+    <Spinner
+        android:id="@+id/sp_city"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+    </Spinner>
+
+    <Button
+        android:id="@+id/insert"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="insert"/>
+
+
+
+
+</LinearLayout>

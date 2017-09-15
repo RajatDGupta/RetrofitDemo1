@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">RetrofitDemo1</string>
+
+    <string name="string_male">Male</string>
+    <string name="string_female">Female</string>
+
+    <string-array name="Country">
+        <item>India</item>
+        <item>Austrelia</item>
+        <item>Nepal</item>
+        <item>Bhutan</item>
+
+    </string-array>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>

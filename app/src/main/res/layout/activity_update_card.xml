@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="nee.firecard.com.retrofitdemo1.UpdateCard"
+    android:orientation="vertical">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/preview"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bye"
+        android:background="@android:color/holo_green_light"
+        android:visibility="gone"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/img_name"
+        android:hint="img_name"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/pick_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pick Image" />
+
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload"
+        android:enabled="false"
+        />
+
+</LinearLayout>
